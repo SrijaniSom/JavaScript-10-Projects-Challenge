@@ -1,0 +1,85 @@
+*
+{
+    box-sizing: border-box;
+    padding:0%;
+    margin:0%;
+}
+html
+{
+    background-color:#E5E1E9 ;
+    font-family: 'Poppins', sans-serif;  
+}
+.banner
+{
+    color:#850CF9;
+    opacity:40%;
+    font-size: 125px;
+    font-weight:1000;
+    margin-top: 5rem;
+    text-align: center;
+}
+.mainPart
+{
+    display:flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.enterlist
+{
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding:0.85rem;
+    color:#8A868E;
+    font-weight: bolder;
+    opacity:40%;
+    padding-left: 1rem;
+    box-shadow:#B6B2BA 0.5rem 0.5rem 0.5rem;
+    border: transparent;
+}
+.talk
+{
+    margin-top: 4rem;
+
+}
+.instruction
+{
+    color:black;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    opacity:80%;
+}
+li
+{
+    list-style-type: none;
+    background-color: white;
+    color:#850CF9;
+    letter-spacing: 3px;
+    padding:0.5rem;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+    padding-left: 1rem;
+    box-shadow:#B6B2BA 0.5rem 0.5rem 0.5rem;
+    border: transparent;
+    min-width: 25rem;
+    margin-top: 0.5rem;
+}
+
+.items
+{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.items
+{
+    display: none;
+}
+.check
+{
+    text-decoration: line-through;
+    cursor: pointer;
+}
